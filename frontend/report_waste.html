@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zero Waste - Report Waste</title>
+    <link rel="shortcut icon" href="/frontend/logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -11,12 +12,11 @@
     <!-- Header -->
     <header class="flex items-center justify-between px-4 py-2 bg-white border-b">
         <div class="flex items-center gap-2">
-            <img src="/placeholder.svg" alt="CLEAN-UP Logo" class="w-8 h-8">
-            <h1 class="text-xl font-semibold">CLEAN-UP</h1>
+            <img src="/frontend/logo.png" alt="ZeroWaste Logo" class="w-8 h-8">
+            <h1 class="text-xl font-semibold">ZeroWaste</h1>
         </div>
         <div class="flex items-center gap-4">
-            <img src="/placeholder.svg" alt="Profile" class="w-8 h-8 rounded-full">
-            <span>Hi, NAIMUR!</span>
+            <span>Hi, User!</span>
         </div>
     </header>
 
@@ -33,11 +33,11 @@
                         </li>
                         <li class="flex items-center gap-3 px-3 py-2 hover:bg-gray-100 rounded-lg">
                             <i class="fas fa-user"></i>
-                            <span>Profile</span>
+                            <a href="/frontend/profile.html">Profile</a>
                         </li>
                         <li class="flex items-center gap-3 px-3 py-2 hover:bg-gray-100 rounded-lg">
                             <i class="fas fa-heart"></i>
-                            <span>Favourites</span>
+                           <a href="leaderboard.html">Leaderboard</a>
                             <span class="ml-auto bg-green-500 text-white text-xs px-2 py-1 rounded-full">2</span>
                         </li>
                         <li class="flex items-center gap-3 px-3 py-2 hover:bg-gray-100 rounded-lg">
@@ -50,21 +50,10 @@
                 <div class="mb-8">
                     <h2 class="text-sm font-semibold text-gray-500 mb-2">MAIN</h2>
                     <ul class="space-y-2">
-                        <li class="flex items-center gap-3 px-3 py-2 hover:bg-gray-100 rounded-lg">
-                            <i class="fas fa-newspaper"></i>
-                            <span>News</span>
-                        </li>
+                        
                         <li class="flex items-center gap-3 px-3 py-2 hover:bg-gray-100 rounded-lg">
                             <i class="fas fa-users"></i>
-                            <span>Community</span>
-                        </li>
-                        <li class="flex items-center gap-3 px-3 py-2 hover:bg-gray-100 rounded-lg">
-                            <i class="fas fa-user-group"></i>
-                            <span>Members</span>
-                        </li>
-                        <li class="flex items-center gap-3 px-3 py-2 hover:bg-gray-100 rounded-lg">
-                            <i class="fas fa-store"></i>
-                            <span>Store</span>
+                            <a href="/frontend/community.html">Community</a>
                         </li>
                     </ul>
                 </div>
